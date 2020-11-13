@@ -6,14 +6,14 @@ public class Product {
 
 	private int itemId;
 	private String shortDescription;
-	private int price;
+	private BigDecimal price;
 	private String brand;
 	
 	public Product() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
-	public Product(int itemId, String shortDescription, int price, String brand) {
+	public Product(int itemId, String shortDescription, BigDecimal price, String brand) {
 		super();
 		this.itemId = itemId;
 		this.shortDescription = shortDescription;
@@ -37,10 +37,10 @@ public class Product {
 	public void setShortDescription(String shortDescription) {
 		this.shortDescription = shortDescription;
 	}
-	public int getPrice() {
+	public BigDecimal getPrice() {
 		return price;
 	}
-	public void setPrice(int price) {
+	public void setPrice(BigDecimal price) {
 		this.price = price;
 	}
 	public String getBrand() {

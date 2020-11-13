@@ -13,8 +13,8 @@ public class CheckDuplicate {
 		
 		for(int i=0;i<myarray.length;i++)
 		{
-		Boolean boolean1=mySet.add(myarray[i]);
-		if(boolean1==false)
+	
+		if(!mySet.add(myarray[i])
 		{
 			System.out.println("The no "+ myarray[i]+" repeated");
 		}	
